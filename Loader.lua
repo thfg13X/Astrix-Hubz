@@ -18,6 +18,14 @@ elseif placeId == 10449761463
     script_key = "trial"
     loadstring(game:HttpGet("https://api.getpolsec.com/scripts/hosted/2872ef09b36cafac79a1420bacc1b75587ed50b426e3b135b3710a872bdd83d2.lua"))()
 
+-- BLX Fruit
+elseif placeId == 2753915549
+    or placeId == 4442272183
+    or placeId == 7449423635 then
+    
+    script_key = "trial"
+    loadstring(game:HttpGet("https://api.getpolsec.com/scripts/hosted/dd59a4baf5347febb7549ff3e2026a123e0d7ba1e6140bfd5221fcbbc5ffa36d.lua"))()
+
 else
     warn("Unsupported game. PlaceId:", placeId)
 end
